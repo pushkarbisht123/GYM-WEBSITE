@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(pexels-victor-freitas-2261477.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+.logo{
+    position: relative;
+    left: 10px;
+    height: 80px;
+    text-align: center;
+    width: 10%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 7px;
+    font-family: Spantaran;
+    line-height: 15px;
+    
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.logo a:hover{
+    color: rgb(215, 213, 213);
+}
+.logo img {
+    
+    border-radius: 50%;
+}
+.navbar{
+    padding-top: 7px;
+    height: 35px;
+    float: left;
+    box-sizing: border-box;
+    width: 56%;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    font-family: Spantaran;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
+li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 20%;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: Spantaran;
+}
+.navbar li a:hover ,.navbar li a.active{
+ text-decoration: underline;
+ color: rgb(196, 187, 187);
+}
+
+.right{
+    height: 30px;
+    width: 20%;
+    float: right;
+    color: white;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-right: 1px;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    padding: 3px 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-family: Spantaran;
+}
+.btn:hover{
+  background-color: rgb(88, 87, 87);
+}
+
+.container{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    padding: 2px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    backdrop-filter: blur(2px);
+}
+.formtag{
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 70%;
+    height: 27px;
+    padding-left: 15px;
+    margin-left: 60px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    
+}
+.formtag:hover{
+    background-color: rgb(206, 206, 209);
+}
+
+footer{
+    height: 90px;
+    width: 1057px;
+    position: relative;
+    top: 100px;
+    background-color: black;
+    padding: 10px;
+}
+.foot{
+    color: white;
+    height: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    margin-left: 70px;
+    float: left;
+    text-align: center;
+}
